@@ -1,0 +1,42 @@
+.movie-detail-container{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    background-color: black;
+}
+
+.movie-image-container{
+    display: flex;
+    width: 300px;
+}
+
+.movie-header{
+    text-align: left;
+    font-size: 20px;
+    color: white;
+}
+
+.movie-rating{
+    display: flex;
+    color: goldenrod;
+}
+
+.movie-info{
+    list-style: none;
+    font-size: 20px;
+    color: white;
+}
+
+.movie-summary{
+    display: flex;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+}
+
+.btn-book-ticket{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+}

@@ -1,0 +1,27 @@
+*{
+   background-color: black;
+}
+
+.nav-main{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    font-size: 40px;
+    font: bold;
+    justify-content: center;
+}
+
+.nav-header{
+    color: #F40812;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-h{
+    color: white;
+}
+
+li{
+    margin: 5px;
+}

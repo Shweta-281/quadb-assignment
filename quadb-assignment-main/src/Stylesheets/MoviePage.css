@@ -1,0 +1,54 @@
+.movie-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+    color: white;
+}
+
+.movie-container{
+    box-shadow: 10px 5px 5px rgba(243, 237, 237, 0.173);
+    margin: 20px;
+    text-align: center;
+    width: 21%;
+    color: white;
+}
+
+
+
+.btn-primary{
+    border: 1px solid white;
+    background-color: red;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+    color: white;
+}
+.star{
+    color: goldenrod;
+}
+
+@media screen and (min-width : 767px) {
+
+    .movie-list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .movie-container{
+        margin: 50px;
+    }
+}
+
+@media screen and (min-width : 425px) {
+
+    .movie-list{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+
+    .movie-container{
+        margin: 70px;
+    }
+}
